@@ -1,0 +1,6 @@
+<tag name="MTVideoCustomFields" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="exclude" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

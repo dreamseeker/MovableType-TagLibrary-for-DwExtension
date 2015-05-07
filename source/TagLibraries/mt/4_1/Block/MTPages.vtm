@@ -1,0 +1,72 @@
+<tag name="MTPages" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="lastn" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="limit" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="sort_by" casesensitive="yes" type="enumerated">
+			<attriboption value="authored_on" />
+			<attriboption value="title" />
+			<attriboption value="ping_count" />
+			<attriboption value="comment_count" />
+			<attriboption value="author_id" />
+			<attriboption value="excerpt" />
+			<attriboption value="status" />
+			<attriboption value="created_on" />
+			<attriboption value="modified_on" />
+			<attriboption value="field:" />
+		</attrib>
+		<attrib name="field:" casesensitive="yes" type="text" />
+		<attrib name="offset" casesensitive="yes" type="text" />
+		<attrib name="folder" casesensitive="yes" type="text" />
+		<attrib name="no_folder" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="0" />
+		</attrib>
+		<attrib name="include_subfolders" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="0" />
+		</attrib>
+		<attrib name="tag" casesensitive="yes" type="text" />
+		<attrib name="tags" casesensitive="yes" type="text" />
+		<attrib name="author" casesensitive="yes" type="text" />
+		<attrib name="days" casesensitive="yes" type="text" />
+		<attrib name="recently_commented_on" casesensitive="yes" type="text" />
+		<attrib name="sort_order" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="blog_ids" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+			<attriboption value="children" />
+			<attriboption value="siblings" />
+		</attrib>
+		<attrib name="include_blogs" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+			<attriboption value="children" />
+			<attriboption value="siblings" />
+		</attrib>
+		<attrib name="include_with_website" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="exclude_blogs" casesensitive="yes" type="text" />
+		<attrib name="unique" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="0" />
+		</attrib>
+		<attrib name="id" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

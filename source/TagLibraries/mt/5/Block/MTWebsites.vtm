@@ -1,0 +1,12 @@
+<tag name="MTWebsites" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="site_ids" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+		</attrib>
+		<attrib name="include_websites" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+		</attrib>
+		<attrib name="exclude_websites" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

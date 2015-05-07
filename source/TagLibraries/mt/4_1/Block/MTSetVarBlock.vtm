@@ -1,0 +1,38 @@
+<tag name="MTSetVarBlock" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="name" casesensitive="yes" type="text" />
+		<attrib name="append" casesensitive="yes" type="enumerated">
+			<attriboption value="0" />
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="prepend" casesensitive="yes" type="enumerated">
+			<attriboption value="0" />
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="op" casesensitive="yes" type="enumerated">
+			<attriboption value="+" />
+			<attriboption value="-" />
+			<attriboption value="*" />
+			<attriboption value="/" />
+			<attriboption value="%" />
+			<attriboption value="++" />
+			<attriboption value="--" />
+			<attriboption value="add" />
+			<attriboption value="sub" />
+			<attriboption value="mul" />
+			<attriboption value="div" />
+			<attriboption value="mod" />
+			<attriboption value="inc" />
+			<attriboption value="dec" />
+		</attrib>
+		<attrib name="index" casesensitive="yes" type="text" />
+		<attrib name="key" casesensitive="yes" type="text" />
+		<attrib name="function" casesensitive="yes" type="enumerated">
+			<attriboption value="push" />
+			<attriboption value="unshift" />
+			<attriboption value="undef" />
+			<attriboption value="delete" />
+		</attrib>
+	</attributes>
+</tag>

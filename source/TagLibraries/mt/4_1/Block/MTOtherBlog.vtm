@@ -1,0 +1,6 @@
+<tag name="MTOtherBlog" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="blog_id" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

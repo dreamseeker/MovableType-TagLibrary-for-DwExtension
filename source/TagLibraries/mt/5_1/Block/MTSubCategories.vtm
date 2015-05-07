@@ -1,0 +1,21 @@
+<tag name="MTSubCategories" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="include_current" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="sort_by" casesensitive="yes" type="enumerated">
+			<attriboption value="user_custom" />
+		</attrib>
+		<attrib name="sort_method" casesensitive="yes" type="text" />
+		<attrib name="sort_order" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="top" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="0" />
+		</attrib>
+		<attrib name="category" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

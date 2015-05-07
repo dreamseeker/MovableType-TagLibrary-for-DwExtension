@@ -1,0 +1,16 @@
+<tag name="MTOtherProfiles" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="type" casesensitive="yes" type="enumerated">
+			<attriboption value="contact" />
+			<attriboption value="blog" />
+			<attriboption value="photos" />
+			<attriboption value="video" />
+			<attriboption value="links" />
+			<attriboption value="status" />
+			<attriboption value="network" />
+		</attrib>
+		<attrib name="author" casesensitive="yes" type="text" />
+		<attrib name="display_name" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

@@ -1,0 +1,12 @@
+<tag name="MTStreamActionRollup" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="by" casesensitive="yes" type="enumerated">
+			<attriboption value="date" />
+			<attriboption value="service" />
+			<attriboption value="stream" />
+			<attriboption value="action" />
+		</attrib>
+		<attrib name="glue" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

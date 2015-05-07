@@ -1,0 +1,6 @@
+<tag name="MTEntryTags" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="glue" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

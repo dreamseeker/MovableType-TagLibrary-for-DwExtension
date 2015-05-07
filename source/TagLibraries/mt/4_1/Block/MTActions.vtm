@@ -1,0 +1,47 @@
+<tag name="MTActions" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="sort" casesensitive="yes" type="enumerated">
+			<attriboption value="authored_on" />
+			<attriboption value="created_on" />
+		</attrib>
+		<attrib name="days" casesensitive="yes" type="text" />
+		<attrib name="range_incl" casesensitive="yes" type="text" />
+		<attrib name="namespace" casesensitive="yes" type="text" />
+		<attrib name="author_id" casesensitive="yes" type="text" />
+		<attrib name="object_ds" casesensitive="yes" type="text" />
+		<attrib name="direction" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="limit" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="lastn" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="sort_order" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="sort_by" casesensitive="yes" type="enumerated">
+			<attriboption value="title" />
+			<attriboption value="author_id" />
+			<attriboption value="excerpt" />
+			<attriboption value="status" />
+			<attriboption value="created_on" />
+			<attriboption value="modified_on" />
+			<attriboption value="authored_on" />
+		</attrib>
+	</attributes>
+</tag>

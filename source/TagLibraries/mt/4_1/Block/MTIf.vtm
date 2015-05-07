@@ -1,0 +1,33 @@
+<tag name="MTIf" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="name" casesensitive="yes" type="text" />
+		<attrib name="like" casesensitive="yes" type="text" />
+		<attrib name="eq" casesensitive="yes" type="text" />
+		<attrib name="ne" casesensitive="yes" type="text" />
+		<attrib name="lt" casesensitive="yes" type="text" />
+		<attrib name="gt" casesensitive="yes" type="text" />
+		<attrib name="le" casesensitive="yes" type="text" />
+		<attrib name="ge" casesensitive="yes" type="text" />
+		<attrib name="tag" casesensitive="yes" type="text" />
+		<attrib name="op" casesensitive="yes" type="enumerated">
+			<attriboption value="+" />
+			<attriboption value="-" />
+			<attriboption value="*" />
+			<attriboption value="/" />
+			<attriboption value="%" />
+			<attriboption value="++" />
+			<attriboption value="--" />
+			<attriboption value="add" />
+			<attriboption value="sub" />
+			<attriboption value="mul" />
+			<attriboption value="div" />
+			<attriboption value="mod" />
+			<attriboption value="inc" />
+			<attriboption value="dec" />
+		</attrib>
+		<attrib name="index" casesensitive="yes" type="text" />
+		<attrib name="key" casesensitive="yes" type="text" />
+		<attrib name="test" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

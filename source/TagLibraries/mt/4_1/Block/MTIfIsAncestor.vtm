@@ -1,0 +1,6 @@
+<tag name="MTIfIsAncestor" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="child" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

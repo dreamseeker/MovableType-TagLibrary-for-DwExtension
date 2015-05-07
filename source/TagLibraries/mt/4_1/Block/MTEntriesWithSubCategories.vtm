@@ -1,0 +1,29 @@
+<tag name="MTEntriesWithSubCategories" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="lastn" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="category" casesensitive="yes" type="text" />
+		<attrib name="author" casesensitive="yes" type="text" />
+		<attrib name="days" casesensitive="yes" type="text" />
+		<attrib name="recently_commented_on" casesensitive="yes" type="text" />
+		<attrib name="sort_order" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="sort_by" casesensitive="yes" type="enumerated">
+			<attriboption value="created_on" />
+			<attriboption value="title" />
+			<attriboption value="status" />
+			<attriboption value="modified_on" />
+			<attriboption value="author_id" />
+			<attriboption value="excerpt" />
+		</attrib>
+	</attributes>
+</tag>

@@ -1,0 +1,34 @@
+<tag name="MTArchiveList" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="archive_type" casesensitive="yes" type="enumerated">
+			<attriboption value="Individual" />
+			<attriboption value="Daily" />
+			<attriboption value="Weekly" />
+			<attriboption value="Monthly" />
+			<attriboption value="Yearly" />
+			<attriboption value="Author" />
+			<attriboption value="Author-Daily" />
+			<attriboption value="Author-Weekly" />
+			<attriboption value="Author-Monthly" />
+			<attriboption value="Author-Yearly" />
+			<attriboption value="Category" />
+			<attriboption value="Category-Daily" />
+			<attriboption value="Category-Weekly" />
+			<attriboption value="Category-Monthly" />
+			<attriboption value="Category-Yearly" />
+		</attrib>
+		<attrib name="sort_order" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="lastn" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+	</attributes>
+</tag>

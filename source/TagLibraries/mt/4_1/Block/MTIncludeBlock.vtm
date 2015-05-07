@@ -1,0 +1,10 @@
+<tag name="MTIncludeBlock" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="file" casesensitive="yes" type="text" />
+		<attrib name="module" casesensitive="yes" type="text" />
+		<attrib name="widget" casesensitive="yes" type="text" />
+		<attrib name="blog_id" casesensitive="yes" type="text" />
+		<attrib name="var" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

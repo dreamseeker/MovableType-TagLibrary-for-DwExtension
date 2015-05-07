@@ -1,0 +1,12 @@
+<tag name="MTAuthorIfFollowing" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="id" casesensitive="yes" type="text" />
+		<attrib name="class" casesensitive="yes" type="text" />
+		<attrib name="class_else" casesensitive="yes" type="text" />
+		<attrib name="script" casesensitive="yes" type="enumerated">
+			<attriboption value="0" />
+			<attriboption value="1" />
+		</attrib>
+	</attributes>
+</tag>

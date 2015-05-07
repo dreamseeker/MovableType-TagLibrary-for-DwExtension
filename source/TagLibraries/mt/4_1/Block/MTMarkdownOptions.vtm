@@ -1,0 +1,9 @@
+<tag name="MTMarkdownOptions" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="output" casesensitive="yes" type="enumerated">
+			<attriboption value="html" />
+			<attriboption value="raw" />
+		</attrib>
+	</attributes>
+</tag>

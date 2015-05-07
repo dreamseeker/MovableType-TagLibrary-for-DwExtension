@@ -1,0 +1,9 @@
+<tag name="MTFor" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="from" casesensitive="yes" type="text" />
+		<attrib name="to" casesensitive="yes" type="text" />
+		<attrib name="increment" casesensitive="yes" type="text" />
+		<attrib name="glue" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

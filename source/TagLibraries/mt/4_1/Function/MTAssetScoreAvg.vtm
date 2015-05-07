@@ -1,0 +1,119 @@
+<tag name="MTAssetScoreAvg" casesensitive="yes" endtag="no">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="namespace" casesensitive="yes" type="text" />
+		<attrib name="_default" casesensitive="yes" type="text" />
+		<attrib name="capitalize" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="cat" casesensitive="yes" type="text" />
+		<attrib name="count_characters" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="count_paragraphs" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="count_words" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="decode_html" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="decode_xml" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="dirify" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="encode_html" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="encode_js" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="encode_php" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="encode_url" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="encode_xml" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="escape" casesensitive="yes" type="enumerated">
+			<attriboption value="html" />
+			<attriboption value="url" />
+			<attriboption value="javascript" />
+			<attriboption value="js" />
+			<attriboption value="mail" />
+		</attrib>
+		<attrib name="filters" casesensitive="yes" type="text" />
+		<attrib name="indent" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="lower_case" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="ltrim" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="mteval" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="nl2br" casesensitive="yes" type="text" />
+		<attrib name="nofollowfy" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="numify" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="regex_replace" casesensitive="yes" type="text" />
+		<attrib name="remove_html" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="replace" casesensitive="yes" type="text" />
+		<attrib name="rtrim" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="sanitize" casesensitive="yes" type="enumerated">
+			<attriboption value="0" />
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="setvar" casesensitive="yes" type="text" />
+		<attrib name="smart_dashes" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="smart_ellipses" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="smart_quotes" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="smarty_pants" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="space_pad" casesensitive="yes" type="text" />
+		<attrib name="spacify" casesensitive="yes" type="text" />
+		<attrib name="spam_protect" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="sprintf" casesensitive="yes" type="text" />
+		<attrib name="string_format" casesensitive="yes" type="text" />
+		<attrib name="strip" casesensitive="yes" type="text" />
+		<attrib name="strip_linefeeds" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="strip_tags" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="trim" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="trim_to" casesensitive="yes" type="text" />
+		<attrib name="upper_case" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="wrap_text" casesensitive="yes" type="text" />
+		<attrib name="zero_pad" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

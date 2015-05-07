@@ -1,0 +1,19 @@
+<tag name="MTBlogs" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="blog_ids" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+			<attriboption value="children" />
+			<attriboption value="siblings" />
+		</attrib>
+		<attrib name="include_blogs" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+			<attriboption value="children" />
+			<attriboption value="siblings" />
+		</attrib>
+		<attrib name="include_with_website" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="exclude_blogs" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

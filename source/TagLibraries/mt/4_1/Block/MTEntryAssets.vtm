@@ -1,0 +1,44 @@
+<tag name="MTEntryAssets" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="lastn" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="offset" casesensitive="yes" type="text" />
+		<attrib name="tag" casesensitive="yes" type="text" />
+		<attrib name="tags" casesensitive="yes" type="text" />
+		<attrib name="author" casesensitive="yes" type="text" />
+		<attrib name="type" casesensitive="yes" type="enumerated">
+			<attriboption value="image" />
+			<attriboption value="audio" />
+			<attriboption value="video" />
+			<attriboption value="file" />
+		</attrib>
+		<attrib name="sort_order" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="sort_by" casesensitive="yes" type="enumerated">
+			<attriboption value="file_name" />
+			<attriboption value="created_by" />
+			<attriboption value="created_on" />
+		</attrib>
+		<attrib name="blog_ids" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+			<attriboption value="children" />
+			<attriboption value="siblings" />
+		</attrib>
+		<attrib name="include_blogs" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+			<attriboption value="children" />
+			<attriboption value="siblings" />
+		</attrib>
+		<attrib name="exclude_blogs" casesensitive="yes" type="text" />
+		<attrib name="assets_per_row" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

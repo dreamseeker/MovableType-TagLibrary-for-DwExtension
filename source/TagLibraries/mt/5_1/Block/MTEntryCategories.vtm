@@ -1,0 +1,9 @@
+<tag name="MTEntryCategories" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="glue" casesensitive="yes" type="text" />
+		<attrib name="type" casesensitive="yes" type="enumerated">
+			<attriboption value="primary" />
+		</attrib>
+	</attributes>
+</tag>

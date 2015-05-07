@@ -1,0 +1,20 @@
+<tag name="MTTextile" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="head_offset" casesensitive="yes" type="text" />
+		<attrib name="preserve_spaces" casesensitive="yes" type="enumerated">
+			<attriboption value="0" />
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="trim_spaces" casesensitive="yes" type="enumerated">
+			<attriboption value="0" />
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="flavor" casesensitive="yes" type="enumerated">
+			<attriboption value="html" />
+			<attriboption value="html/css" />
+			<attriboption value="xhtml1" />
+			<attriboption value="xhtml2" />
+		</attrib>
+	</attributes>
+</tag>

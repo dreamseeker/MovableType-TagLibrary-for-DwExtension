@@ -1,0 +1,16 @@
+<tag name="MTApp_Form" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="action" casesensitive="yes" type="text" />
+		<attrib name="method" casesensitive="yes" type="enumerated">
+			<attriboption value="get" />
+			<attriboption value="post" />
+		</attrib>
+		<attrib name="object_id" casesensitive="yes" type="text" />
+		<attrib name="blog_id" casesensitive="yes" type="text" />
+		<attrib name="object_type" casesensitive="yes" type="text" />
+		<attrib name="name" casesensitive="yes" type="text" />
+		<attrib name="enctype" casesensitive="yes" type="text" />
+		<attrib name="id" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

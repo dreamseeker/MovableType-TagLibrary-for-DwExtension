@@ -1,0 +1,31 @@
+<tag name="MTAuthorCommentResponses" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="lastn" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="sort_order" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="blog_ids" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+			<attriboption value="children" />
+			<attriboption value="siblings" />
+		</attrib>
+		<attrib name="include_blogs" casesensitive="yes" type="enumerated">
+			<attriboption value="all" />
+			<attriboption value="children" />
+			<attriboption value="siblings" />
+		</attrib>
+		<attrib name="include_with_website" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+		</attrib>
+		<attrib name="exclude_blogs" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

@@ -1,0 +1,16 @@
+<tag name="MTSection" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="cache_prefix" casesensitive="yes" type="text" />
+		<attrib name="period" casesensitive="yes" type="text" />
+		<attrib name="by_blog" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="0" />
+		</attrib>
+		<attrib name="by_user" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="0" />
+		</attrib>
+		<attrib name="html_tag" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

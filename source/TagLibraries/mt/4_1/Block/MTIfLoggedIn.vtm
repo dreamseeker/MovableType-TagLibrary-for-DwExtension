@@ -1,0 +1,7 @@
+<tag name="MTIfLoggedIn" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="element_id" casesensitive="yes" type="text" />
+		<attrib name="script" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

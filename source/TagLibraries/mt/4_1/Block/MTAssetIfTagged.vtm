@@ -1,0 +1,10 @@
+<tag name="MTAssetIfTagged" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="tag" casesensitive="yes" type="text" />
+		<attrib name="include_private" casesensitive="yes" type="enumerated">
+			<attriboption value="0" />
+			<attriboption value="1" />
+		</attrib>
+	</attributes>
+</tag>

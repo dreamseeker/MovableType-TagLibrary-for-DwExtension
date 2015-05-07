@@ -1,0 +1,22 @@
+<tag name="MTArchiveNext" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="archive_type" casesensitive="yes" type="enumerated">
+			<attriboption value="Individual" />
+			<attriboption value="Daily" />
+			<attriboption value="Weekly" />
+			<attriboption value="Monthly" />
+			<attriboption value="Yearly" />
+			<attriboption value="Author" />
+			<attriboption value="Author-Daily" />
+			<attriboption value="Author-Weekly" />
+			<attriboption value="Author-Monthly" />
+			<attriboption value="Author-Yearly" />
+			<attriboption value="Category" />
+			<attriboption value="Category-Daily" />
+			<attriboption value="Category-Weekly" />
+			<attriboption value="Category-Monthly" />
+			<attriboption value="Category-Yearly" />
+		</attrib>
+	</attributes>
+</tag>

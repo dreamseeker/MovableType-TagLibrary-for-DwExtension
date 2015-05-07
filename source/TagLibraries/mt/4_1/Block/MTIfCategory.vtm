@@ -1,0 +1,11 @@
+<tag name="MTIfCategory" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="name" casesensitive="yes" type="text" />
+		<attrib name="label" casesensitive="yes" type="text" />
+		<attrib name="type" casesensitive="yes" type="enumerated">
+			<attriboption value="primary" />
+			<attriboption value="secondary" />
+		</attrib>
+	</attributes>
+</tag>

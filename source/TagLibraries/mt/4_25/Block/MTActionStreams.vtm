@@ -1,0 +1,45 @@
+<tag name="MTActionStreams" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="authors" casesensitive="yes" type="text" />
+		<attrib name="display_name" casesensitive="yes" type="text" />
+		<attrib name="author_id" casesensitive="yes" type="text" />
+		<attrib name="days" casesensitive="yes" type="text" />
+		<attrib name="service" casesensitive="yes" type="text" />
+		<attrib name="stream" casesensitive="yes" type="enumerated">
+			<attriboption value="contact" />
+			<attriboption value="blog" />
+			<attriboption value="photos" />
+			<attriboption value="video" />
+			<attriboption value="links" />
+			<attriboption value="status" />
+			<attriboption value="network" />
+		</attrib>
+		<attrib name="lastn" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="limit" casesensitive="yes" type="enumerated">
+			<attriboption value="1" />
+			<attriboption value="5" />
+			<attriboption value="10" />
+			<attriboption value="15" />
+			<attriboption value="20" />
+			<attriboption value="99" />
+		</attrib>
+		<attrib name="sort_by" casesensitive="yes" type="enumerated">
+			<attriboption value="author_id" />
+			<attriboption value="created_on" />
+			<attriboption value="modified_on" />
+		</attrib>
+		<attrib name="direction" casesensitive="yes" type="enumerated">
+			<attriboption value="descend" />
+			<attriboption value="ascend" />
+		</attrib>
+		<attrib name="offset" casesensitive="yes" type="text" />
+	</attributes>
+</tag>

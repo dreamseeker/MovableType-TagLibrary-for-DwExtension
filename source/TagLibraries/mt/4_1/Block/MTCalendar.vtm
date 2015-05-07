@@ -1,0 +1,10 @@
+<tag name="MTCalendar" casesensitive="yes" endtag="yes">
+	<tagformat nlbeforetag="0" nlaftertag="0" />
+	<attributes>
+		<attrib name="category" casesensitive="yes" type="text" />
+		<attrib name="month" casesensitive="yes" type="enumerated">
+			<attriboption value="this" />
+			<attriboption value="last" />
+		</attrib>
+	</attributes>
+</tag>
