@@ -212,6 +212,8 @@
 		<tagref file="mt/5_1/Block/MTSubFolders.vtm" name="SubFolders" />
 		<tagref file="mt/5_1/Block/MTTopLevelCategories.vtm" name="TopLevelCategories" />
 		<tagref file="mt/5_1/Block/MTTopLevelFolders.vtm" name="TopLevelFolders" />
+		<tagref file="mt/6/Block/MTHasNoParentFolder.vtm" name="HasNoParentFolder" />
+		<tagref file="mt/6/Block/MTHasNoSubFolders.vtm" name="HasNoSubFolders" />
 	</taglibrary>
 
 	<taglibrary doctypes="HTML,PHP_MySQL,DWTemplate,LibraryItem,DWTemplate_PHP" id="DWTagLibrary_MovableType_Function" name="Movable Type ファンクションタグ" prefix="&lt;$mt:" sufffix="$&gt;" tagchooser="(none)">
@@ -582,6 +584,8 @@
 		<tagref file="mt/5_1/Function/MTInclude.vtm" name="Include" />
 		<tagref file="mt/5_1/Function/MTPasswordValidation.vtm" name="PasswordValidation" />
 		<tagref file="mt/5_1/Function/MTPasswordValidationRule.vtm" name="PasswordValidationRule" />
+		<tagref file="mt/6/Function/MTDataAPIScript.vtm" name="DataAPIScript" />
+		<tagref file="mt/6/Function/MTDataAPIVersion.vtm" name="DataAPIVersion" />
 		<tagref file="mt/6/Function/MTEntryStatus.vtm" name="EntryStatus" />
 		<tagref file="mt/6/Function/MTStatsSnippet.vtm" name="StatsSnippet" />
 		<tagref file="mt/6/Function/MTSupportDirectoryURL.vtm" name="SupportDirectoryURL" />
@@ -956,6 +960,8 @@
 		<tagref file="mt/5_1/Function/MTInclude.vtm" name="Include" />
 		<tagref file="mt/5_1/Function/MTPasswordValidation.vtm" name="PasswordValidation" />
 		<tagref file="mt/5_1/Function/MTPasswordValidationRule.vtm" name="PasswordValidationRule" />
+		<tagref file="mt/6/Function/MTDataAPIScript.vtm" name="DataAPIScript" />
+		<tagref file="mt/6/Function/MTDataAPIVersion.vtm" name="DataAPIVersion" />
 		<tagref file="mt/6/Function/MTEntryStatus.vtm" name="EntryStatus" />
 		<tagref file="mt/6/Function/MTStatsSnippet.vtm" name="StatsSnippet" />
 		<tagref file="mt/6/Function/MTSupportDirectoryURL.vtm" name="SupportDirectoryURL" />

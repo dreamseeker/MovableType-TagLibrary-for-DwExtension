@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <macromedia-extension
 	 name="Movable Type タグライブラリ for Dreamweaver 機能拡張"
-	 version="1.0.4"
+	 version="1.0.5"
 	 type="suite"
 	 requires-restart="true"
 	 locked="false"
@@ -621,6 +621,10 @@ http://opensource.org/licenses/mit-license.php
 		<file source="TagLibraries/mt/5_1/Function/MTInclude.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/5_1/Function/" />
 		<file source="TagLibraries/mt/5_1/Function/MTPasswordValidation.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/5_1/Function/" />
 		<file source="TagLibraries/mt/5_1/Function/MTPasswordValidationRule.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/5_1/Function/" />
+		<file source="TagLibraries/mt/6/Block/MTHasNoParentFolder.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/6/Block/" />
+		<file source="TagLibraries/mt/6/Block/MTHasNoSubFolders.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/6/Block/" />
+		<file source="TagLibraries/mt/6/Function/MTDataAPIScript.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/6/Function/" />
+		<file source="TagLibraries/mt/6/Function/MTDataAPIVersion.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/6/Function/" />
 		<file source="TagLibraries/mt/6/Function/MTEntryStatus.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/6/Function/" />
 		<file source="TagLibraries/mt/6/Function/MTStatsSnippet.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/6/Function/" />
 		<file source="TagLibraries/mt/6/Function/MTSupportDirectoryURL.vtm" destination="$Dreamweaver/Configuration/TagLibraries/mt/6/Function/" />
@@ -843,6 +847,8 @@ http://opensource.org/licenses/mit-license.php
 					<tagref file="mt/5_1/Block/MTSubFolders.vtm" name="SubFolders" />
 					<tagref file="mt/5_1/Block/MTTopLevelCategories.vtm" name="TopLevelCategories" />
 					<tagref file="mt/5_1/Block/MTTopLevelFolders.vtm" name="TopLevelFolders" />
+					<tagref file="mt/6/Block/MTHasNoParentFolder.vtm" name="HasNoParentFolder" />
+					<tagref file="mt/6/Block/MTHasNoSubFolders.vtm" name="HasNoSubFolders" />
 				</taglibrary>
 			</taglibrary-insert>
 			<taglibrary-insert>
@@ -1214,6 +1220,8 @@ http://opensource.org/licenses/mit-license.php
 					<tagref file="mt/5_1/Function/MTInclude.vtm" name="Include" />
 					<tagref file="mt/5_1/Function/MTPasswordValidation.vtm" name="PasswordValidation" />
 					<tagref file="mt/5_1/Function/MTPasswordValidationRule.vtm" name="PasswordValidationRule" />
+					<tagref file="mt/6/Function/MTDataAPIScript.vtm" name="DataAPIScript" />
+					<tagref file="mt/6/Function/MTDataAPIVersion.vtm" name="DataAPIVersion" />
 					<tagref file="mt/6/Function/MTEntryStatus.vtm" name="EntryStatus" />
 					<tagref file="mt/6/Function/MTStatsSnippet.vtm" name="StatsSnippet" />
 					<tagref file="mt/6/Function/MTSupportDirectoryURL.vtm" name="SupportDirectoryURL" />
