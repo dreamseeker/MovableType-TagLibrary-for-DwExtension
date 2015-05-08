@@ -1,4 +1,4 @@
-# MovableType TagLibraries for Dw Extension
+# MovableType TagLibrary for Dw Extension
 
 コードヒントに MT タグやモディファイアを表示する、Dreamweaver 機能拡張です。
 
